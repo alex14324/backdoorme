@@ -1,5 +1,4 @@
-# backdoorme [![Build Status](https://travis-ci.org/Kkevsterrr/backdoorme.png?branch=master)](https://travis-ci.org/Kkevsterrr/backdoorme)
-
+# backdoorme 
  Tools like metasploit are great for exploiting computers, but what happens after you've gained access to a computer? Backdoorme answers that question by unleashing a slew of backdoors to establish persistence over long periods of time.
 
  Once an SSH connection has been established with the target, Backdoorme's strengths can come to fruition. Unfortunately, Backdoorme is not a tool to gain root access - only keep that access once it has been gained.
@@ -151,7 +150,5 @@ If you wish to add your own backdoor, follow the directions given in the backdoo
 
 If you wish to add your own module, follow the directions given in the backdoorme/modules/template.py file.
 
-Cheat Sheet for developers:
-- Execute command on system: self.core.curtarget.ssh.exec_command("command")
-- Retrieve an option: self.get_value("option")
-- Execute command on system with root: self.target.ssh.exec_command("echo " + self.core.curtarget.pword + " | sudo -S command") 
+# Flow Here 
+https://github.com/alex14324
